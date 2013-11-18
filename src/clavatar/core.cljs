@@ -217,7 +217,7 @@ function (string) {
 (defn- genparams
   "Generate the parameters needed for Gravatar."
   [& {size :size default :default rating :rating}]
-  (format "?s=%s&r=%s&d=%s&" size (name rating) (name default)))
+  (str "?s=" size "&r=" (name rating) "&d=" (name default) "&"))
 
 (defn gravatar
   "Returns the URL to a gravatar image for an email.
