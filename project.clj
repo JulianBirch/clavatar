@@ -7,8 +7,8 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [com.cemerick/clojurescript.test "0.2.1"
                   :scope "test"]
-                 [org.clojure/clojurescript "0.0-1978"]]
-  :plugins [[lein-cljsbuild "1.0.0-alpha1"]
+                 [org.clojure/clojurescript "0.0-2014"]]
+  :plugins [[lein-cljsbuild "1.0.0"]
             [com.cemerick/clojurescript.test "0.2.1"]]
   :hooks [leiningen.cljsbuild]
   :cljsbuild

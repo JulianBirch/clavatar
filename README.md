@@ -1,13 +1,15 @@
-# clavatar
+# cljs-clavatar
 
-This is a library to generate Gravatar URLs for a given email. It is extremely simple, consisting of only one function. You give it an email and possibly specify some options, and it'll give you the link to the gravatar for that email or a default image.
+This is a ClojureScript library to generate Gravatar URLs for a given email. It is extremely simple, consisting of only one function. You give it an email and possibly specify some options, and it'll give you the link to the gravatar for that email or a default image.
+
+It's a ClojureScript fork of Anthony Grimes' [clavatar library](https://github.com/Raynes/clavatar) and is API identical.  Some less lazy than me may wish to merge the two.
 
 ## Usage
 
 Leiningen, of course.
 
 ```clojure
-:dependencies [[clavatar "0.2.1"]]
+    [net.colourcoding/cljs-clavatar "0.2.1"]
 ```
 
 Using the library is extremely simple. Just use the `gravatar` function. Here are some examples:
